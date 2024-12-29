@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hat",
+  "version": "${version}",
+  "name": "hat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.terriblefriends.hat.client.HatClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*"
+  }
+}
